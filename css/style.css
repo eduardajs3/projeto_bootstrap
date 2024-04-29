@@ -43,6 +43,11 @@
 .text-terciary-subtle{
     color: rgba(255, 255, 255, 0.5) !important;
 }
+
+.card {
+    width: 25rem;
+}
+
 .text-danger{
     color: rgb(1, 45, 120) !important
 }

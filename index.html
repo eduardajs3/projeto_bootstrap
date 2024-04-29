@@ -7,18 +7,52 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- icons bootstrap -->
     <link rel="stylesheet" href="css/style.css"> <!-- customizacao bootstrap -->
     <link rel="stylesheet" href="css/responsividade.css"> <!-- responsividade -->
-    <title>Escola de Esportes - Home</title>
+    <title>Sports Academy - Home</title>
 </head>
 <body class="bs-body-color">
     <header>
         <!-- navbar com dois links sem navegar -->
+        <a href="#">
+            <img src="img/logoHeader.png" class="img-fluid p-3" alt="Logo 'Sports Academy'" title="Logo do website 'Sports Academy'">
+        </a>    
+        <nav class="bg-primary">
+            <ul class="nav nav-underline justify-content-around">
+                <li class="nav-item">
+                    <a class="nav-link text-primary fw-semibold fs-2" href="#">Home</a>
+                </li>   
+                <li class="nav-item">
+                    <a class="nav-link text-primary fw-semibold fs-2" href="#">Modalidades</a>
+                </li>    
+            </ul>    
+        </nav>    
     </header>
     <main>
         <section>
             <!-- tres cards (blocos) com texto generico e imagem representativa -->
-            <div></div>
-            <div></div>
-            <div></div>
+            <h1 class="text-center p-5 display-4 fw-semibold text-primary">Sports Academy transforma paixão em performance!</h1>
+            <p class="text-center pb-5 px-5 h3 fw-semibold text-secondary">O esporte é fundamental para a qualidade de vida das pessoas. O movimento é uma necessidade vital do ser humano em qualquer idade. A prática de um esporte possibilita a melhoria dos aspectos afetivos, sociais e biológicos, que envolvem o questionamento de situações e problemas. Algumas modalidades oferecidas pela instituição são:</p>
+            <div class="container-fluid">
+                <div class="row justify-content-around">
+                    <div class="col-2 card rounded-4 border border-4 bg-secondary border-primary" width="18rem">
+                        <img src="img/volei.jpg" class="card-img-top mt-2 img-fluid rounded-4 border border-4 border-primary" alt="Imagem de um jogo de vôlei." title="Vôlei">
+                        <div class="card-body">
+                            <p class="card-text text-center pt-1 fw-semibold fs-5 text-terciary">O voleibol é praticado em uma quadra dividida em duas partes por uma rede e em cada lado, estão duas equipes com seis jogadores. A equipe que marcar 25 pontos primeiro, vence 1 set. A equipe que vencer 3 sets primeiro, ganha a partida.</p>
+                        </div>    
+                    </div>
+                    <div class="col-2 card rounded-4 border border-4 bg-secondary border-primary" width="18rem">
+                        <img src="img/basquete.jpg" class="card-img-top mt-2 img-fluid rounded-4 border border-4 border-primary" alt="Imagem de uma mão encostando em uma bola de basquete." title="Basquete">
+                        <div class="card-body">
+                            <p class="card-text text-center pt-1 fw-semibold fs-5 text-terciary">O basquetebol é disputado por duas equipes de cinco jogadores em uma quadra, com um cesto colocado em cada extremidade. A equipe que acertar mais bolas dentro do cesto, ganha a partida.</p>
+                        </div>    
+                    </div>
+                    <div class="col-2 card rounded-4 border border-4 bg-secondary border-primary" width="18rem">
+                        <img src="img/futsal.jpg" class="card-img-top mt-2 img-fluid rounded-4 border border-4 border-primary" alt="Imagem de uma pessoa correndo com uma bola de futsal." title="Futsal">
+                        <div class="card-body">
+                            <p class="card-text text-center pt-1 fw-semibold fs-5 text-terciary">O futsal é o futebol adaptado para uma quadra com dois postes verticais limitados pela altura por uma trave horizontal. É praticado por duas equipes adversárias, compostas por cinco jogadores. A equipe que marcar mais gols, ganha a partida. </p>
+                        </div>    
+                    </div>
+                </div>    
+            </div>    
         </section>
         <section>
             <!-- formulario com campos de nome, email, assunto e botao de envio (sem evento de envio) -->
