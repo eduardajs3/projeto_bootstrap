@@ -47,3 +47,7 @@
 .card {
     width: 25rem;
 }
+
+.text-danger{
+    color: rgb(1, 45, 120) !important
+}
