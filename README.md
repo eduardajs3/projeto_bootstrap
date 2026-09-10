@@ -1,6 +1,6 @@
 # Sports Academy
 
-Trabalho de Desenvolvimento Web I focado no desenvolvimento de uma página web com aplicação do framework Bootstrap.
+Trabalho de Desenvolvimento Web I focado no desenvolvimento de uma página web, com aplicação do framework Bootstrap.
 
 ## Bootstrap
 
